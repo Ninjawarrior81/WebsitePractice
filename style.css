@@ -1,7 +1,7 @@
-body {background-color: blue;}
-h1 {color: red;}
+body {background-color: darkred;}
+h1 {color: mediumpurple;}
 p {
-    color: black;
+    color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
