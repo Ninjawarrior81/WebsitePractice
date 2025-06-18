@@ -49,3 +49,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+#Setting the theme name "Architect" https://github.com/pages-themes/architect
+theme: jekyll-theme-ARCHITECT
