@@ -1,5 +1,9 @@
-body {background-color: darkred;}
-h1 {color: mediumpurple;}
+body {
+    background-color: blue;
+}
+h1 {
+    color: whitesmoke;
+}
 p {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
