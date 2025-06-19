@@ -1,5 +1,5 @@
 header, footer {
-    display: grid;
+    display: block;
     background-color: #008FCF;
 }
 body {
