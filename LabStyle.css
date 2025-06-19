@@ -1,6 +1,8 @@
 header, footer {
     display: block;
     background-color: #008FCF;
+    color:whitesmoke;
+    
 }
 body {
     background-color: whitesmoke;
