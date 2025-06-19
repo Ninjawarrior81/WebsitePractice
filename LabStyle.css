@@ -1,5 +1,6 @@
-header{
+header, footer {
     display: grid;
+    background-color: #008FCF;
 }
 body {
     background-color: whitesmoke;
@@ -11,4 +12,16 @@ p {
     color: #CEA633;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float:left;
 }
