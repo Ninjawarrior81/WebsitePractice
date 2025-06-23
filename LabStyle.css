@@ -13,16 +13,16 @@ h1 {
 p {
     color: #CEA633;
     font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
 }
 nav {
-    color: #CEA633;
+    background-color: #CEA633;
+    
 }
 
 ul {
     list-style-type:none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 0px;
     overflow: hidden;
 }
 
