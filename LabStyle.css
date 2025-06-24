@@ -1,4 +1,4 @@
-header, footer {
+﻿header, footer {
     display: block;
     background-color: #008FCF;
     color:whitesmoke;
@@ -7,6 +7,28 @@ header, footer {
 body {
     background-color: whitesmoke;
 }
+
+body, html{
+    height: max-content;
+}
+hero-image {
+    /*pulling the image from the cloud files (LanDisk)*/
+    background-image: url("\\landisk-ee7620\disk1\Website Development\Website Media\Shopping site creationショッピングサイト制作\designホームページ [To Be Used]\@最終\全ページ：共通パーツ\杉の木商品に入れる画像.jpg");
+    /*position and center the image to scale for all screen types*/
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+hero-text{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:whitesmoke;
+}
+
 h1 {
     color: #008FCF;
 }
