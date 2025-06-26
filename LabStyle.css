@@ -11,6 +11,14 @@ header, footer {
     /*background-color: #008FCF;*/
     /*color: whitesmoke;*/
 }
+nav input[type=search]{
+    float:right;
+    padding: 6px;
+    border:none;
+    margin-top:8px;
+    margin-right:16px;
+    font-size:16px;
+}
 
 .vertical {
     writing-mode:vertical-rl;
@@ -28,9 +36,6 @@ p {
     color: #CEA633;
     font-family: 'Times New Roman', Times, serif;
 }
-/*nav {
-    background-color: #CEA633;
-}*/
 
 ul {
     list-style-type:none;
@@ -45,22 +50,16 @@ li {
 
 /* The hero image */
 .hero-image {
-    /* Use "linear-gradient" , to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Media/Images/World.jpg");
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("SiteCreation/NewHomePage/LAST/AllPagesCommon/コサインスタッフイメージ.jpg");
     /* Set a specific height */
     height: 300px;
+    /* Position and center the image to scale nicely on all screens */
     display: flex;
     justify-content: center;
     align-content: center;
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-    text-align: center;
-    color: white;
 }
