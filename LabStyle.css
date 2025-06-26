@@ -12,19 +12,6 @@ header, footer {
     /*color: whitesmoke;*/
 }
 
-.container {
-    background-image: src(Media/Images/World.jpg);
-    position: relative;
-    text-align: center;
-    color: whitesmoke;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
 .vertical {
     writing-mode:vertical-rl;
     text-orientation: upright;
@@ -50,19 +37,17 @@ ul {
 
 li {
     display: inline;
-    float:left;
 }
 
 /* The hero image */
 .hero-image {
-    /* Use "linear-gradient" linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("Media/Images/World.jpg");
+    /* Use "linear-gradient" , to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Media/Images/World.jpg");
     /* Set a specific height */
     height: 300px;
     display: flex;
     justify-content: center;
     align-content: center;
-
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -73,9 +58,5 @@ li {
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
-    color: white;
-}
-.hero-text button:hover {
-    background-color: #555;
     color: white;
 }
