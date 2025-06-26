@@ -12,12 +12,6 @@ header, footer {
     /*color: whitesmoke;*/
 }
 
-
-
-/*.IntroBannerPic {
-
-}*/
-
 .container {
     background-image: src(Media/Images/World.jpg);
     position: relative;
@@ -80,16 +74,6 @@ li {
 .hero-text {
     text-align: center;
     color: white;
-}
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
 }
 .hero-text button:hover {
     background-color: #555;
