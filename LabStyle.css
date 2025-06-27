@@ -1,5 +1,6 @@
 ﻿body, html {
     height: max-content;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
@@ -34,7 +35,6 @@ h1 {
 }
 p {
     color: #CEA633;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 ul {

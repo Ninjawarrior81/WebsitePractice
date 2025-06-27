@@ -1,11 +1,41 @@
 body {
     background-color: #C9A063;
+    
 }
-h1 {
-    color: whitesmoke;
+h1, h2, h3, h4, h5, h6 {
+    color: #008FCF;
+
 }
 p {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+.column {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-collapse:collapse;
+}
+
+.columnItems{
+    padding: 0px;
+    width: 50%;
+    vertical-align:top;
+}
+.row:after {
+    content: close-quote;
+    display: table;
+    clear: both;
+}
+table {
+    background-color: whitesmoke;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width:100%;
+    }
 }
