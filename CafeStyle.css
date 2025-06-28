@@ -8,9 +8,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 p {
-    color: whitesmoke;
-    
     font-size: larger;
+}
+div{
+    background-color:whitesmoke;
 }
 .column {
     float:left;
