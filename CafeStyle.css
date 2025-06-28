@@ -1,6 +1,7 @@
 body {
     background-color: #C9A063;
-    
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #008FCF;
@@ -8,34 +9,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    
     font-size: larger;
 }
 .column {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    border-collapse:collapse;
+    float:left;
+    width: 49.5%;
+    padding: 0px 2px;
 }
-
-.columnItems{
-    padding: 0px;
-    width: 50%;
-    vertical-align:top;
+.row{
+    margin: 0px -5px;
+    text-align:center;
 }
 .row:after {
     content: close-quote;
     display: table;
     clear: both;
 }
-table {
+
+.card{
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    text-align: center;
     background-color: whitesmoke;
-    text-indent: initial;
-    border-spacing: 2px;
 }
 
 @media screen and (max-width: 600px){
     .column{
-        width:100%;
+        width:95%;
+        display:block;
+        margin-bottom: 20px;
     }
 }
