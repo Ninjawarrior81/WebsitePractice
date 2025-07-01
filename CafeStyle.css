@@ -6,20 +6,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #008FCF;
 }
-h3{
+/*h3{
     display:flex;
     align-content:center;
     justify-content:space-between;
-}
+}*/
 ul {
     list-style-type: none;
 }
 p {
     font-size: larger;
 }
-/*div{
-    background-color:whitesmoke;
-}*/
+
+
 .column {
     float:left;
     width: 49.5%;
@@ -41,7 +40,29 @@ p {
     text-align: center;
     background-color: whitesmoke;
 }
+.MoveRight{
+    position:relative;
+    text-align:right;
+}
+/*Begin Copy*/
+.price{
+    color:gray;
+    font-size:22px;
+}
+/*
+.card button{
+    border:none;
+    outline:0;
+    padding:12px;
+    color:white;
+    cursor:pointer;
+    width:100%;
+    font-size:18px;
+}*/
+.card button:hover{
+    opacity:0.7;
 
+}
 @media screen and (max-width: 600px){
     .column{
         width:95%;
