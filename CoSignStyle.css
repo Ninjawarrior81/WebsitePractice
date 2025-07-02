@@ -16,14 +16,15 @@ div{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:20px;
-    padding: 0px 2px;
+    padding: 2px 2px;
 }
 
 .columnImage {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 0px 2px;
+    padding: 2px 2px;
+    margin-left:20px;
     background-image:linear-gradient(to right, red, yellow, green);
 }
 .row {
