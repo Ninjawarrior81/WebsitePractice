@@ -1,3 +1,38 @@
-﻿body {
-    background-color: #008FCF;
+﻿/*HTML Section*/
+body {
+    /*background-color: #008FCF;*/
+    /*Background color: rainbow*/
+    background-image: linear-gradient(to right, red, yellow, green);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
+
+div{
+    background-color:whitesmoke;
+}
+
+/*Class Section*/
+.column {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 0px 2px;
+}
+
+.columnImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0px 2px;
+    background-image:linear-gradient(to right, red, yellow, green);
+}
+.row {
+    margin: 0px -5px;
+    text-align: center;
+}
+row:after {
+    content: close-quote;
+    display: table;
+    clear: both;
+}
+
