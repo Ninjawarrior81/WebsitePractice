@@ -2,13 +2,9 @@
 body {
     /*background-color: #008FCF;*/
     /*Background color: rainbow*/
-    background-image: linear-gradient(to right, red, yellow, green);
+    background-image: linear-gradient(to right, red, orange, yellow, green, teal, blue);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-
-div{
-    background-color:whitesmoke;
 }
 
 /*Class Section*/
@@ -25,7 +21,6 @@ div{
     gap: 20px;
     padding: 2px 2px;
     margin-left:20px;
-    background-image:linear-gradient(to right, red, yellow, green);
 }
 .row {
     margin: 0px -5px;
