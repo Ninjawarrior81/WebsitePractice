@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+.imgLogo {
+    width: 50px;
+}
+
 /*Class Section*/
 .column {
     display:grid;
