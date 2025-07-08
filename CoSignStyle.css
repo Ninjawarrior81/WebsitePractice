@@ -2,7 +2,8 @@
 body {
     /*background-color: #008FCF;*/
     /*Background color: rainbow*/
-    background-image: linear-gradient(to right, red, orange, yellow, green, teal, blue);
+    background-image: linear-gradient(to right, rgba(255,0,0,0.4), rgba(255,165,0,0.4), rgba(255,255,0,0.4), rgba(165,255,0,0.4),
+                        rgba(0,255,0,0.4), rgba(0,255,165,0.4), rgba(0,255,255,0.4), rgba(0,165,255,0.4), rgba(0,0,255,0.4));
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }

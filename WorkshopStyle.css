@@ -18,7 +18,11 @@ p {
     font-size: larger;
 }
 
+img{
+    width:50px;
+}
 
+/*HTML ENDS | CLASS BEGINS*/
 .column {
     float:left;
     width: 49.5%;
