@@ -34,3 +34,11 @@ function allFlyerChangeJAP() {
     document.getElementById('ICEL').setAttribute('href', 'Media/Images/CafeExplanation/ICEJ.png');
     document.getElementById('CMEL').setAttribute('href', 'Media/Images/CafeExplanation/CMEJ.png');
 }
+
+function allTextChangeENG() {
+
+}
+
+function allTextChangeJAP() {
+
+}
