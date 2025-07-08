@@ -1,12 +1,14 @@
 // JavaScript source code
 
 function allFlyerChangeENG() {
-    document.getElementById('CEJI').src = 'Media/Images/CEE.png';
-    document.getElementById('TMEJ').src = 'Media/Images/TMEE.png';
-    document.getElementById('WMEJ').src = 'Media/Images/WMEE.png';
+    document.getElementById('CEI').src = 'Media/Images/CEE.png';
+    document.getElementById('TME').src = 'Media/Images/TMEE.png';
+    document.getElementById('WME').src = 'Media/Images/WMEE.png';
+    document.getElementById('PT').src = 'Media/Images/PTE.png';
 }
 function allFlyerChangeJAP() {
-    document.getElementById('CEJI').src = 'Media/Images/CEJ.png';
-    document.getElementById('TMEJ').src = 'Media/Images/TMEJ.png';
-    document.getElementById('WMEJ').src = 'Media/Images/WMEJ.png';
+    document.getElementById('CEI').src = 'Media/Images/CEJ.png';
+    document.getElementById('TME').src = 'Media/Images/TMEJ.png';
+    document.getElementById('WME').src = 'Media/Images/WMEJ.png';
+    document.getElementById('PT').src = 'Media/Images/PTJ.png';
 }
