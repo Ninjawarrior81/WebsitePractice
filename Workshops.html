@@ -10,188 +10,121 @@
 </head>
 <body>
     <header>
-        <div></div>
         <div class="card">
             <h1>
-                Workshops
-
-                <!-- Figure out how to move this cart to the right side or make a side bar -->
-                <span class="MoveRight">
-                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
-                    </svg>
-                </span>
+                <img src="Media/Images/Workshops/cosign.jpeg" /> Cafe and Salon
             </h1>
-            <button onclick="allTextChangeENG();">ENGLISH</button>
-            <button onclick="allTextChangeJAP();">日本語</button>
         </div>
     </header>
-    
 
-    <div style="background-color:whitesmoke;">
-        <hr />
-        <p>
-            <ul>
-                <li>
-                    <img src="Media/Images/Workshops/logo_jsl.png" /><span style="color:blue;">Japanese Sign Language (JSL)</span>
-                </li>
-                <li>
-                    <img src="Media/Images/Workshops/logo_eng.png" /><span style="color: green;">Engineering (EGN)</span>
-                </li>
-                <li>
-                    <img src="Media/Images/Workshops/logo_asl.png" /> <span style="color: darkred;">American Sign Language (ASL) </span>
-                </li>
-                <li>
-                    <img src="Media/Images/Workshops/logo_is.png" /><span style="color: #C9A063;">International Sign Language (IS) </span>
-                </li>
-                <li>
-                    <img src="Media/Images/Workshops/logo_bsl.png" /> <span style="color: grey;">Britain Sign Language (BSL)</span>
-                </li>
-                <li>
-                    <img src="Media/Images/Workshops/logo_lsf.png" /> <span style="color: hotpink;">France Sign Language (LSF)</span>
-                </li>
-            </ul>
-            We have in-person lessons at the cafe as well as online lessons via ZOOM.
-            <br />
-            <a href="Media/Images/CafeOnline.png">Convenient Flyer (Japanese)</a>
-            <hr />
-        </p>
-    </div>
+    <br />
+
     <div class="row">
+        <div class="column">
+            <div class="card" style="margin: 0 10px;">
+                <a href="Media/Images/Workshops/CafeOnline.png">日本語のチラシ</a>
+                <center>
+                    We provide multiple workshops that teach, in order of frequency:
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_jsl.png" />
+                                </td>
+                                <td>
+                                    Japanese Sign Language
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_eng.png" />
+                                </td>
+                                <td>
+                                    <span style="color:green;">Engineering</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_asl.png" />
+                                </td>
+                                <td>
+                                    <span style="color:red;">American Sign Language</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_is.png" />
+                                </td>
+                                <td>
+                                    <span style="color:darkorange;">International Sign Language</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_bsl.png" />
+                                </td>
+                                <td>
+                                    <span style="color:gray;">Britain Sign Language</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="imgLogo" src="Media/Images/Workshops/logo_lsf.png" />
+                                </td>
+                                <td>
+                                    <span style="color:deeppink;">France Sign Language</span>
+                                </td>
+                        </tbody>
+                    </table>
+                </center>
+            </div>
+        </div>
         <div class="column">
             <div class="card">
                 <h3>SALON</h3>
                 <hr />
-                Many workshops are taught via Zoom so you can learn various sign language from the comfort of your home, for ￥3300!<br />
-                The schedule is as follows (Please click on the links to add it to your reservation):
-                <ul style="text-align:left">
-                    <li>
-                        JSL/Beginner: 6/10, Tuesday, 10AM to 11AM, 6/13 and 27, Friday, 9PM to 10PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    
-                    </li>
-                    <br />
-                    <li>
-                        JSL/Advanced: 10AM to 11AM 
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        JSL/A La Carte: 8/1 and 10/3, Friday, 9PM to 10PM 
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        ASL/Beginner: Every Monday at 9PM to 10PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        ASL/Intermediate: Every Wednesday at 9PM to 10PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        IS/Beginner: Every Tuesday at 9:05PM to 10:05PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        IS/Introductory: 6/16 Monday
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        IS/Intermediate: 6/5 and 19 Thursday, 8:30PM to 9:30PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        LSF/Beginner: 6/23 Monday, 9PM to 10PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        BSL/Intermediate: 6/12 and 26 Thursday 9PM to 10PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        Sign Language Hymms: 6/13 and 27 Friday 7:55Pm to 8:55PM
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    <li>
-                        EGN:One-on-one Appointments
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    <br />
-                    
-                    <li>
-                        Sign-Mi/JSL: One-on-one Appointments
-                        <input type="button" value="Add to Cart" style="float:right" />
-                    </li>
-                    
-                    
-                </ul>
+                Many workshops are taught via Zoom so you can learn various sign languages from the comfort of your home!<br />
+                <a href="Media/Images/Workshops/202506_signsaloninformation.png">Monthly Schedule (June)</a>
             </div>
-        </div>
-        <div class="column">
+            <br />
             <div class="card">
                 <h3>IN-PERSON CAFE</h3>
                 <hr />
-
-                The cafe has deaf staffs and deaf instructors on-site.
-                You can learn various sign languages in a relaxed atmosphere.
+                The cafe has deaf staffs and instructors on-site so you can come and practice sign language in a relaxed atmosphere.
                 <br />
-
-                All in-person workshops are offered for the same price of __. 
+                You could also order delicious snacks and drinks here!
                 <br />
-                <a href="Cafe.html">Explanation, Location, and Menu Information here</a>
+                <a href="Cafe.html">Details, Location, and Menu Information</a>
+            </div>
 
-                <!--at the same location: __
-                <br /><hr />
-                We also offer some snacks and drinks for this workshop type. Our menu items are linked below.<br />
+            <br />
+            <div class="card">
+                You could also check out our social media for postings regarding future schedule and events.<br />
+                <a href="https://www.instagram.com/deafcosign">
+                    <img style="margin:0 20px;" src="Media/Images/SM Logo/Logo_Instagram_Black.png" />
+                </a>
+                <a href="https://x.com/deafcosign">
+                    <img style="margin:0 20px;" src="Media/Images/SM Logo/Logo_Twitter_Black.png" />
+                </a>
+                <a href="https://www.facebook.com/deafcosign">
+                    <img style="margin:0 20px;" src="Media/Images/SM Logo/Logo_Facebook_Black.png" />
+                </a>
+                <a href="https://www.youtube.com/@cosignlab1371">
+                    <img style="margin:0 20px;" src="Media/Images/SM Logo/Logo_YouTube_Black.png" />
+                </a>
 
-                <a href="Media/Images/MenuItems.jpg">Menu Items</a><br />
-                <a href="Media/Images/PizzaToast.jpg">New Menu Item: Pizza Toast!</a><br />
-                <a href="Media/Images/Vinegarmenu.jpg">New Menu Item: Black Vinegar Drink and Sakura Snacks</a>-->
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <!--<img src="" alt="Shop Item 1" />-->
-                <h3>JSL Beginner</h3>
-                <p class="price">￥3300</p>
-                <button class="addCart">Add To Cart</button>
-            </div>
-            <div class="card">
-                <h3>JSL Advanced</h3>
-                <p class="price">$200</p>
-                <button class="addCart">Add To Cart</button>
-            </div>
-        </div>
-    </div>
-    <!--<div class="cartTab">
-        <h2>Shopping Cart</h2>
-        <div class="listCart">
-
-        </div>
-        <div class="btn">
-            <button class="close">CLOSE</button>
-            <button class="checkOut">CHECK OUT</button>
-        </div>
-    </div>-->
 
     <script src="Main.js"></script>
-    
+
     <footer>
-        <!--<a href="index.html">Go back to Homepage</a>-->
-        <!--<a href="https://sign-navi.info">Return to Homepage</a>-->
-        <a href="CafeExplanation.html"> Return to Cafe</a>
+        <!--<a href="index.html">Go back to Homepage</a>
+    <!--<a href="https://sign-navi.info">Return to Homepage</a>-->
+<br />
+        <a href="mailto:info@idaj.net">Contact us for reservations</a>
+        <!--<a href="Cafe.html">Link to Cafe</a>-->
     </footer>
 </body>
 </html>
