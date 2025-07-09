@@ -1,1 +1,1 @@
-This is a practice website in order to prepare for my upcoming duties.
+The preparation has been complete. All that's left is to make it efficient and secure, which is a continuous process.
