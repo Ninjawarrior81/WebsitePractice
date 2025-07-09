@@ -12,6 +12,10 @@ body {
     width: 50px;
 }
 
+td img{
+    width: 50px;
+}
+
 /*Class Section*/
 .column {
     display:grid;
